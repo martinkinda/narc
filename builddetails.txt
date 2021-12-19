@@ -1,0 +1,12 @@
+
+
+Install bland Raspian to SD
+Boot and update
+Ensure you replace the default ssh keys
+   https://forums.kali.org/showthread.php?5723-Change-your-Kali-default-ssh-keys
+ Ensure that SSH is running on boot
+   https://phoenixnap.com/kb/enable-ssh-raspberry-pi
+ Change the default pi account password to aviod this idiotic CVE
+   https://nvd.nist.gov/vuln/detail/CVE-2021-38759
+  Add a ~/bin and ~/code directory to the pi home.
+  Add export PATH="~/bin:$PATH" to the last line of the file ~/.bashrc#
